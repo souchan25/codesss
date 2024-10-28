@@ -1,0 +1,160 @@
+#banner{
+    height: 90vh;
+    background: rgba(34, 93, 195);
+    background: linear-gradient(0deg, rgb(51, 65, 48) 0%, rgba(253, 187, 45, 0.141) 100%), url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+.btn{
+    padding: 15px 30px;
+    border-radius: 30;
+    font-size: 18px;
+    font-weight: 900;
+    transition: all .4s ease;
+}
+.btn-brand{
+    background-color: seagreen;
+    color: aliceblue;
+    border: 3px solid seagreen;
+}
+.btn-brand:hover{
+    background-color: transparent;
+    border: 3px solid seagreen;
+    color: seagreen;
+}
+section{
+    padding: 100px 0px;
+}
+#about h1{
+    font: 55px;
+    font-weight: 1000;
+    color: seagreen;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+}
+img{
+    border-radius: 30px;
+}
+#services h1{
+    font: 100px;
+    font-weight: 1000;
+    color: seagreen;
+    
+}
+.uwu{
+    padding: 22px;
+    height: 160px;
+    width: 200px;
+}
+.card:hover{
+    background-color: rgb(209, 200, 200);
+    transition: all .4 ease;
+}
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn-brand{
+    color: aliceblue;
+}
+
+#services {
+    background-color: #fff;
+}
+#cta{
+    height: 70vh;
+    /* background: url(coffee2.jpg); */
+    background: rgba(34, 93, 195);
+    background: linear-gradient(0deg, rgb(65, 68, 64) 0%, rgba(253, 187, 45, 0.141) 100%), url(coffee2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.testimonials{
+    border: 2px solid green;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.testimonials img{
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.testimonials a{
+    color: rgb(6, 209, 6);
+}
+.faq-section{
+    max-width: 800px;
+    margin: auto;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+.accordion-button{
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: darkgrey;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.accordion-body{
+    border-left: 3px solid seagreen;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+.accordion-button:not(.collapsed){
+    background-color: seagreen;
+    color: #fff;
+}
+.accordion-button:hover{
+    background-color: seagreen;
+    color: #fff;
+}
+#faq{
+    background-color: #fff;
+}
+footer{
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    background-color: seagreen;
+}
+#footer ul.list-unstyled li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li:hover a{
+    color: rgb(8, 47, 8)
+}
+.btn-outline-light{
+    border-color: #ffffff;
+    color: #fff;
+    border-radius: none;
+}
+
+@media screen and (max-width: 767px) {
+    #about img{
+        height: 300px;
+        width: 300px;
+    }
+    
+    #about h1{
+        padding-top: 15px;
+    }
+    #services .card{
+        margin-top: 20px;
+    }
+
+    #section{
+        padding: 60px 30px;
+    }
+}
+#banner p{
+    font-size: 1.2rem;
+}
